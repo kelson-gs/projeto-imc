@@ -1,0 +1,100 @@
+body{
+    background: #0D2636;
+}
+
+p{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 55px;
+}
+
+section#leyout{
+    display: flex;
+    color: #FFF;
+    background: rgb(7, 19, 39);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.486);
+    margin:40px auto;
+    border-radius: 8px;
+    padding: 0 30px; 
+    width: 300px;
+    height: 600px;
+}
+
+div#resp{
+    border-radius: 10px;
+    background: #FFF;
+    color: #000;
+    text-align: center;
+    width: 300px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+    height: 300px;
+    
+}
+
+div#object{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+
+div#tratamentos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-left: 28px;
+
+}
+
+
+.saidas{
+    height:30px ;
+    width: 240px; 
+    text-align: center;
+    font-size: 20px;
+    padding: 0 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+div#buttons{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+input#button{
+    margin-top: 40px;
+    margin-left: 35px;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font: 400;
+    font-size: 20px ;
+    font-weight: bold;
+}
+
+input#button:hover{
+    background: #0D2636;
+    color: #FFF;
+    outline: none;
+}
+
+label#lab{
+    margin-left: 98px;
+}
+
+label#labs{
+    margin-left: 104px;
+}
+
+.text{
+    margin-left: 110px;
+}
